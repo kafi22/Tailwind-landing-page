@@ -1,0 +1,60 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+.mobile-nav {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+body {
+    background-image: url(/images/bg-tablet-pattern.svg);
+    background-repeat: no-repeat;
+    background-size: 800px;
+    background-position: 90% -25%;
+}
+
+@media only screen and (max-width: 768px) {
+    
+body {
+    background-image: url(/images/bg-tablet-pattern.svg);
+    background-repeat: no-repeat;
+    background-size: 630px;
+    background-position: 220% -5%;
+}
+}
+
+
+@media only screen and (max-width: 570px) {
+    
+    body {
+        background-image: url(/images/bg-tablet-pattern.svg);
+        background-repeat: no-repeat;
+        background-size: 500px;
+        background-position: 190% -5%;
+    }
+}
+
+#feature-sec {
+    background-image: url(/images/bg-tablet-pattern.svg);
+    background-repeat: no-repeat;
+    background-size: 450px;
+    background-position: 5% 35%;
+ 
+}
+
+
+@media only screen and (max-width: 768px) {
+    
+#feature-sec {
+    background-image: url(/images/bg-tablet-pattern.svg);
+    background-repeat: no-repeat;
+    background-size: 350px;
+    background-position: 120% 0%;
+ 
+}
+
+}
